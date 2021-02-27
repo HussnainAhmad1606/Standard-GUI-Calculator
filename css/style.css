@@ -1,0 +1,46 @@
+* {
+    font-family: "Candara";
+}
+
+.col {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    font-size: 30px;
+    color: black;
+    width: 35px;
+    height: 40px;
+    background-color: #cacaca;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 2px 2px 4px 1px black;
+  }
+
+body {
+    background-color:  #cacaca;
+}
+
+#calculator {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#expression {
+  background: none;
+  font-size: 25px;
+  width: 90%;
+  margin: 4px 0px;
+  text-indent: 10px;
+}
+
+#heading {
+  font-size: 35px;
+  letter-spacing: 3px;
+}
